@@ -19,6 +19,7 @@ def encryptIt():
     print('Encrypting something new.')
     encryptedPhrase.clear()
     oldSentence = input('What do you want to encrypt? ')
+    oldSentence = oldSentence.lower()
     tempBreak = oldSentence.split()
     for word in tempBreak:
         newWord = []
